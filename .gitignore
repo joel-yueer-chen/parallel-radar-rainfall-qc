@@ -1,0 +1,24 @@
+# Data files
+Data/*
+!Data/.gitkeep
+!Data/radar_grid/
+Data/radar_grid/*
+!Data/radar_grid/.gitkeep
+
+Script/rain/*
+!Script/rain/.gitkeep
+
+# Logs and outputs
+logs/*
+!logs/.gitkeep
+results*/
+*.out
+*.err
+
+# Large / binary / local files
+*.csv
+*.rds
+*.RData
+*.tar
+*.gz
+.DS_Store
