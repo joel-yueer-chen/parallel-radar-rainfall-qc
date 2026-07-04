@@ -35,7 +35,7 @@ echo "OMP_NUM_THREADS per task:"
 echo $OMP_NUM_THREADS
 
 echo "Start running full year 2025 fixed MPI-style across dates:"
-srun --kill-on-bad-exit=1 --cpu-bind=cores Rscript /projects/bignellr/cheny35/DBSCAN_SCRIPT/Script/code/DBSCAN1_mpi_2025_fread_fwrite.R
+srun --kill-on-bad-exit=1 --cpu-bind=cores Rscript /projects/bignellr/cheny35/DBSCAN_SCRIPT/Script/code/DBSCAN1_mpi_2025_fread_fwrite_1t16th.R
 
 echo "Job finished at:"
 date
